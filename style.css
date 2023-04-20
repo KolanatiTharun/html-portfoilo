@@ -1,0 +1,97 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+.main{
+width:350px;
+height: 500px;
+position: relative;
+margin: 50px auto;
+
+}
+.main frame{
+width:fit-content;
+height:fit-content;
+border:3px solid red;
+position: absolute;
+z-index:1;
+border-image:url("C:\Users\kolan\OneDrive\Desktop\slliver\DSC_0972.JPG")25 25;
+
+animation: frame 5s linear infinite;
+}
+@keyframes frame{
+    0%{
+        transform:scale(.9) ;
+        opacity: 0;
+
+    }
+    20%{
+        transform:scale(.9) ;
+        opacity: 0;
+    }
+    80%{
+        transform:scale(.9) ;
+        opacity: 0;
+    }
+    100%{
+        transform:scale(.9) ;
+        opacity: 0;
+    }
+    
+}
+
+
+
+
+.slide{
+width:fit-content;
+height: fit-content;
+position: absolute;
+left: 70px;
+bottom: -150px;
+opacity: 0;
+animation: slider 5s infinite;
+
+}
+.slide img{
+    width: 400px;
+    height:500px;
+    z-index: -1;
+
+
+
+}
+@keyframes slider{
+
+
+0%{
+    transform: translate(50px);
+    opacity: 0;
+
+
+}
+
+30%{
+    transform: translate(-55px);
+    opacity: 1;
+}
+50%{
+    transform: translate(-55px);
+    opacity: 1;
+
+}
+100%{
+    transform: translate(-55px);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+}
